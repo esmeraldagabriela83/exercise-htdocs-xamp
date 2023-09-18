@@ -1,0 +1,237 @@
+.container-with-shadow{
+    border:3px solid cornflowerblue;
+    background-color: chocolate;
+}
+
+/*----------------------------------*/
+
+#container-with-shadow-id{
+    width: 50%;
+    height: 15vh;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+#container-with-shadow-id:hover{
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+
+    display:flex;
+    align-items: end;
+    justify-content: right;
+    transition: 3s;
+}
+
+#text-paragraph{
+    margin:1em 0;
+}
+
+
+
+/* This is a single-line comment */
+
+#container-with-shadow-id2{
+    width: 70%;
+    height: 20vh;
+    color: white;
+    margin-top: 1.5em;
+}
+
+#container-with-shadow-id2:hover{
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This is a single-line comment */
+
+#container-with-shadow-id3{
+    width: 70%;
+    height: 20vh;
+    color: chartreuse;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#container-with-shadow-id3:hover{
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: green;
+    background-color: bisque;
+    border-radius: 0.3em;
+    transition:7s;
+}
+
+/*----------------------------------*/
+
+#container-with-shadow-id4{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border:1px solid blueviolet;
+    border-radius: 0.3em;
+    padding: 3em 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-with-shadow-id4:hover{
+    box-shadow: 5px 5px 5px blueviolet;
+    text-shadow: 5px 5px 5px blueviolet;
+    letter-spacing: 0.3em;
+    transition: 3s;
+}
+
+/*------------------------------------*/
+
+#transform_div{
+    background-color: crimson;
+    padding: 3em;
+    width: 25%;
+    height: 30%;
+    border:3px solid yellowgreen;
+    color:white;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+#transform_div:hover{
+    background-color: yellow;
+    border:3px solid forestgreen;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    color:forestgreen;
+
+    transform: translate(50px,100px);
+    transition:5s;
+}
+
+.under_transform_div_hr{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    color:blueviolet;
+}
+
+
+#transform_rotate{
+  width: 25%;
+  height: 10vh;
+  background-color: pink;
+  color:blueviolet;
+  border: 1px solid black;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#transform_rotate:hover{
+    background-color: orangered;
+    color:white;
+    transform: rotate(20deg);
+    transition: 3s;
+  }
+
+/*------------------------------------*/
+
+#container-3-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transform_rotate-each{
+    height: 10em;
+    width: 10em;
+    border:1px solid red;
+    background-color: darkblue;
+    color:azure;
+    margin:1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transform_rotate-each:hover{
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+
+/*------------------------------------*/
+#container-5-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: aquamarine;
+}
+
+#container-5-elements:hover{
+    background-color: bisque;
+    transition: 1.5s;
+}
+
+.transform_rotate-each-sec{
+    height: 10em;
+    width: 10em;
+    border:1px solid blue;
+    background-color: goldenrod;
+    color:azure;
+    margin:1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transform_rotate-each-sec:hover{
+    background-color: orangered;
+    color:blue;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+/*--------------------------------------------------*/
+.colored-div{
+    height: 7em;
+    width: 15em;
+    border:1px solid magenta;
+    background-color: green;
+    color:azure;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#colored-div-1{
+    background-color: yellow;  
+}
+
+#colored-div-2{
+    background-color: red;
+    margin-top: -7em;
+}
+
+#colored-div-2:hover{
+    transform: rotate(20deg);
+}
+
+
+
+
