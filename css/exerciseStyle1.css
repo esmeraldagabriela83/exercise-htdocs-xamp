@@ -275,3 +275,106 @@
 }
 
 /*--------------*/
+
+#transform-scale-id{
+    height: 10vh;
+    width: 15%;
+    background-color: yellowgreen;
+    border:3px solid magenta;
+    margin: 1em;
+}
+
+#transform-scale-id:hover{
+    transform: scale(2,3);
+    transition:0.5s;
+}
+
+/*----https://www.w3schools.com/css/css3_3dtransforms.asp--------------*/
+
+/*-----https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_rotateX---------*/
+
+#transform-rotate-150{
+    height: 15vh;
+    width: 50%;
+    background-color: chocolate;
+    border:3px solid forestgreen;
+    color:aquamarine;
+}
+
+#transform-rotate-150:hover{
+    color:chocolate;
+    background-color: aquamarine;
+
+    transform: rotateX(150deg);
+    transition:1.5s;
+}
+
+/*---------https://www.w3schools.com/css/css3_3dtransforms.asp------------*/
+/*---------https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_rotateY-----*/
+
+#transform-rotate-150y{
+    height: 15vh;
+    width: 50%;
+    background-color: red;
+    border:3px solid magenta;
+    color:aliceblue;
+}
+
+#transform-rotate-150y:hover{
+    transform: rotateY(150deg);
+    transition:3s;
+
+background-color: aliceblue;
+color:red;
+}
+
+/*------------*/
+
+#no-transform{
+    height: 20vh;
+    width: 30%;
+    background-color: blue;
+    border:3px solid forestgreen;
+    color:magenta;
+
+    margin-bottom:-20vh;
+}
+
+#transform-rotate-90z{
+    height: 20vh;
+    width: 30%;
+    background-color: yellow;
+    border:3px solid magenta;
+    color:forestgreen;
+}
+
+#transform-rotate-90z:hover{
+    transform: rotateZ(90deg);
+    transition:3s;
+}
+
+/*------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
